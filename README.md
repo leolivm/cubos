@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Logo" src="https://res.cloudinary.com/ds7s48zv6/image/upload/v1614565348/logo_gso5oe.svg" width="200px">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  React Application for Cubos project
+</h3>
 
-## Available Scripts
+<p align="center">
 
-In the project directory, you can run:
+  <a href="https://www.linkedin.com/in/leandro-martins-0640921a4/" target="_blank" rel="noopener noreferrer">
+    <img alt="Repository size" src="https://img.shields.io/badge/made%20by-Leandro%20Martins-blueviolet">
+  </a>
+</p>
 
-### `yarn start`
+## 👨🏻‍💻 About the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Cubos web application developed with TheMovieDB API.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Technologies
 
-### `yarn test`
+Technologies that I used to develop this web client
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://github.com/axios/axios)
+- [Prettier](https://prettier.io/)
+- [CryptoJS](https://cryptojs.gitbook.io/docs/)
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start)
 
-### `yarn build`
+## 💻 Getting started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Clone the project and access the folder**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+$ git clone https://github.com/leolivm/cubos && cd cubos
+```
 
-### `yarn eject`
+**Follow the steps below**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Install the dependencies
+$ yarn
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Make sure to fill in these details**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Don't forget to create an .env file at the root of the project with the information found in the .envexample file
+# The required information is the private key of TheMovieDB API developer account.
+$ APP_PRIVATE_API_KEY=
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Run the project**
 
-## Learn More
+```bash
+# Run the scripts
+$ yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with 💜 by Leandro Martins 👋 [See my linkedin](https://www.linkedin.com/in/leandro-martins-0640921a4/)
